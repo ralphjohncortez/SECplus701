@@ -200,8 +200,8 @@ show ip dhcp binding
 conf t
  default int dot11radio 0
  default interface gigabitEthernet 0
-hostname aironet-20
- dot11 ssid SECPLUS-Mwifi
+hostname aironet-82
+ dot11 ssid SECPLUS-82wifi
  authentication open
  authentication key-management wpa
  wpa-psk ascii C1sc0123
@@ -210,7 +210,7 @@ int dot11radio 0
  no shut
  channel 9
  encryption mode ciphers tkip
- ssid SECPLUS-Mwifi
+ ssid SECPLUS-82wifi
  bridge-group 1
 end
 
@@ -313,12 +313,12 @@ ephone-dn 8
 ephone-dn 10
  number 8298
 Ephone 1
-  Mac-address cafe.face.baba
+  Mac-address ccd8.c1fb.02b7
   type 8945
   button 1:8 2:7 3:6 4:5
   restart
 Ephone 2
-  Mac-address fafa.caca.baba
+  Mac-address 8478.aced.5bb7
   type 8945
   button 1:4 2:3 3:2 4:1
   restart  
