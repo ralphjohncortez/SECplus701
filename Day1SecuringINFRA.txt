@@ -150,9 +150,9 @@ vlan 10
 vlan 50
    name IPCCTVLAN
 vlan 69
-   name UPPERMGMT
+   name RALPH
 vlan 70
-    name ACCOUNTING
+    name SOC
 vlan 71
     name HR
 vlan 100
